@@ -1,0 +1,155 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "pizza restaurant",
+    "collectionId": "601a95c6-4f1c-4012-9f05-2beee6978c78",
+    "dateExported": "2024-07-07T16:33:50.017Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "89348ef9-55b7-459b-b02b-2700ee41b5ff",
+            "colId": "601a95c6-4f1c-4012-9f05-2beee6978c78",
+            "containerId": "",
+            "name": "get restaurant by id",
+            "url": "http://127.0.0.1:5555/restaurants/10",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-07T15:28:22.019Z",
+            "modified": "2024-07-07T15:45:07.132Z",
+            "headers": []
+        },
+        {
+            "_id": "aac698c4-e116-4ed2-a6ae-ec564f6a4c5a",
+            "colId": "601a95c6-4f1c-4012-9f05-2beee6978c78",
+            "containerId": "",
+            "name": "get all restaurants",
+            "url": "http://127.0.0.1:5555/pizzas",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-07-07T15:39:18.311Z",
+            "modified": "2024-07-07T16:24:38.127Z",
+            "headers": [
+                {
+                    "name": "Key",
+                    "value": "Content-Type"
+                },
+                {
+                    "name": "Value",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "    {\n      \"price\": 15,\n      \"pizza_id\": 4,\n      \"restaurant_id\": 4\n    }\n\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "3e20eaf2-7c02-4877-9936-a5c33f47cf55",
+            "colId": "601a95c6-4f1c-4012-9f05-2beee6978c78",
+            "containerId": "",
+            "name": "http://127.0.0.1:5555/restaurant_pizzas",
+            "url": "http://127.0.0.1:5555/restaurant_pizzas",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-07-07T15:39:29.013Z",
+            "modified": "2024-07-07T15:39:29.013Z",
+            "headers": [
+                {
+                    "name": "Key",
+                    "value": "Content-Type"
+                },
+                {
+                    "name": "Value",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "    {\n      \"price\": 15,\n      \"pizza_id\": 4,\n      \"restaurant_id\": 4\n    }\n\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "d16672f2-6539-4e3b-8eda-11bd233f3ad1",
+            "colId": "601a95c6-4f1c-4012-9f05-2beee6978c78",
+            "containerId": "",
+            "name": "add_restaurant_pizza",
+            "url": "http://127.0.0.1:5555/restaurant_pizzas",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-07T15:39:40.449Z",
+            "modified": "2024-07-07T15:39:40.449Z",
+            "headers": [
+                {
+                    "name": "Key",
+                    "value": "Content-Type"
+                },
+                {
+                    "name": "Value",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Accept",
+                    "value": "*/*",
+                    "isDisabled": true
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "    {\n      \"price\": 15,\n      \"pizza_id\": 4,\n      \"restaurant_id\": 4\n    }\n\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "13e242f7-b6e2-420e-bfc9-6aae27346e09",
+            "colId": "601a95c6-4f1c-4012-9f05-2beee6978c78",
+            "containerId": "",
+            "name": "delete restaurant",
+            "url": "http://127.0.0.1:5555/restaurants/1",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2024-07-07T15:39:57.930Z",
+            "modified": "2024-07-07T15:39:57.930Z",
+            "headers": []
+        },
+        {
+            "_id": "501275d9-f36b-498c-82a5-3de460efde71",
+            "colId": "601a95c6-4f1c-4012-9f05-2beee6978c78",
+            "containerId": "",
+            "name": "get all pizzas",
+            "url": "http://127.0.0.1:5555/restaurants/1",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-07-07T15:40:07.524Z",
+            "modified": "2024-07-07T15:40:07.524Z",
+            "headers": []
+        }
+    ],
+    "ref": "Z3gU785sBAn8gk0AzIBdnGaHck5oitjPN-ER7aoylYPRYjw0WQKTlHsfclOIAkx1sUqiz4PW2rTkLpwe13jRgQ"
+}
